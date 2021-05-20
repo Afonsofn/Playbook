@@ -1,0 +1,7 @@
+// Nesse caso todo "span" que antes dele tenha um outro "span" vão recceber as mudanças, ou seja todos recceberam	menos o primeiro.
+
+span {
+	& + span { 
+    margin-left: 1rem;
+  }
+}
