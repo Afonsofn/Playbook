@@ -21,7 +21,7 @@ function getDadosPerfil() {
   this.mapeamento_requisicoes.getDadosPerfil = true
 }
 
-// Quando não houer mais false a função retorna false e eu seto oq precisar.
+// Quando não houver mais false a função retorna false e eu seto oq precisar.
 function ablePrintButton() {
   return Object.values(this.mapeamento_requisicoes).some((req) => req === false )
 }
